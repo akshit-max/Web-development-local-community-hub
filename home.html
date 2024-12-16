@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Portal</title>
+
+    <!-- In-built CSS Styles -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9; /* Soft off-white background */
+            margin: 0;
+            padding: 0;
+            color: #2c3e50; /* Dark blue-gray text */
+        }
+
+        header {
+            background-color: #ffffff; /* White background */
+            color: #2771a6; /* Blue text */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #2771a6; /* Blue border */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #2771a6; /* Blue background for navigation */
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff; /* White text for nav links */
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #e74c3c; /* Red highlight on hover */
+        }
+
+        main {
+            padding: 30px 20px;
+        }
+
+        /* Section Styles */
+        section {
+            background-color: #ffffff; /* White background */
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #2771a6; /* Blue text for section titles */
+            margin-top: 0;
+        }
+
+        section h3 {
+            font-size: 1.6em;
+            color: #34495e; /* Darker blue-gray for article titles */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #2980b9; /* Light blue text for links */
+            font-size: 1.1em;
+        }
+
+        ul li a:hover {
+            color: #e74c3c; /* Red highlight on hover */
+        }
+
+        blockquote {
+            background-color: #ecf0f1; /* Off-white background for blockquotes */
+            border-left: 5px solid #2771a6; /* Blue left border */
+            padding: 15px;
+            font-style: italic;
+            margin: 20px 0;
+            color: #34495e;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #2771a6; /* Blue footer */
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+
+        /* Mobile Styles */
+       
+        .img{
+            display: flex;
+            gap: 4px;
+            border: 4px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1><b>WELCOME TO COMMUNITY HUB!</b></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="business directory.html">Business Directory</a></li>
+            
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="img">
+        <img width="50%" height="600px" src="https://img.freepik.com/premium-vector/meander-through-juneteenth-street-fair-stopping-each-stall-admire-stunning-artwork-sample_216520-124026.jpg?semt=ais_hybrid" alt="">
+        <img width="50%" height="600px" src="https://img.freepik.com/free-vector/flat-design-international-human-rights-day_23-2148711491.jpg" alt="">
+    </div> 
+    <hr><!-- News Section -->
+        <section id="news">
+            <h2>Latest News</h2>
+            <p>Stay updated with the latest happenings in our community.</p>
+            <article>
+                <h3>New Community Center Opening</h3>
+                <p>We are excited to announce the opening of our new community center located at the heart of the neighborhood. The center will provide a variety of services including fitness classes, workshops, and community events. Grand opening date: 15th December 2024.</p>
+            </article>
+            <article>
+                <h3>Volunteer Program Launch</h3>
+                <p>We are launching a volunteer program to help clean and beautify local parks. If you're interested in giving back to your community, join us for the first clean-up day on 20th December 2024. Together, we can make our community a better place!</p>
+            </article>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <p>Join our events and be part of the community.</p>
+            <ul>
+                <li>
+                    <h3>Annual Charity Run</h3>
+                    <p>Date: 25th December 2024</p>
+                    <p>Description: Participate in the annual charity run to support local initiatives. All proceeds go to funding community projects.</p>
+                </li>
+                <li>
+                    <h3>Community Potluck Dinner</h3>
+                    <p>Date: 5th January 2025</p>
+                    <p>Description: Join us for a potluck dinner where everyone brings a dish to share. It's a great way to meet your neighbors and enjoy homemade food.</p>
+                </li>
+                <li>
+                    <h3>Kids' Art Workshop</h3>
+                    <p>Date: 10th January 2025</p>
+                    <p>Description: A fun and creative workshop for kids of all ages. The kids will have the chance to explore their artistic side and showcase their creations!</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Business Directory Section -->
+        <section id="business-directory">
+            <h2>Business Directory</h2>
+            <p>Find local businesses and services.</p>
+            <ul>
+                <li><strong>John's Auto Repair</strong> - Offering reliable and affordable car repair services. Located on Elm Street.</li>
+                <li><strong>Green Thumb Garden Services</strong> - Landscaping and garden maintenance. Call for a free consultation.</li>
+                <li><strong>Sunshine Cafe</strong> - A cozy spot for delicious coffee, breakfast, and lunch. Located in the center of town.</li>
+                <li><strong>Healthy Pets Veterinary Clinic</strong> - Professional care for your pets. Open seven days a week.</li>
+            </ul>
+        </section>
+
+        <!-- Community Forum Section -->
+        <section id="forum">
+            <h2>Community Forum</h2>
+            <p>Engage in discussions with fellow residents. Share your thoughts, ask questions, and stay connected with others in the community.</p>
+            <ul>
+                <li><a href="#">What's your favorite local restaurant?</a></li>
+                <li><a href="#">Ideas for community projects</a></li>
+                <li><a href="#">Looking for recommendations on home improvement services</a></li>
+                <li><a href="#">Help us plan the upcoming charity event!</a></li>
+            </ul>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>What Our Community Members Say</h2>
+            <blockquote>
+                "This community has been such a great place to live. The people are friendly, and there are always exciting events to participate in." – Sarah, Resident
+            </blockquote>
+            <blockquote>
+                "I love how active the local community is. The business directory helped me find great services, and the events are always fun." – Mark, Local Business Owner
+            </blockquote>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or suggestions, feel free to reach out to us!</p>
+            <ul>
+                <li><strong>Email:</strong> info@communityhub.com</li>
+                <li><strong>Phone:</strong> (123) 456-7890</li>
+                <li><strong>Address:</strong> 123 Community Ave, Townsville, Country</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Local Community. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

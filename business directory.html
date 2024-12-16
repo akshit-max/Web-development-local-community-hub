@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Directory</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9; /* Off-white background */
+    }
+    .img{
+            display: flex;
+            gap: 4px;
+            border: 4px solid black;
+        }
+
+    header {
+      background-color: #1e3a5f; /* Dark blue */
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #274c77; /* Blue */
+      overflow: hidden;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: #366a94; /* Light blue hover */
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .business-directory {
+      margin: 70px;
+    }
+
+    .business-card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      margin-bottom: 20px;
+    }
+
+    .business-card h3 {
+      margin-top: 0;
+      color: #1e3a5f; /* Dark blue for headings */
+    }
+
+    .business-card p {
+      margin: 10px 0;
+      color: #555;
+    }
+
+    .business-card .highlight {
+      font-weight: bold;
+      color: #1e3a5f; /* Dark blue for highlighted text */
+    }
+
+    .contact-info {
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #1e3a5f; /* Dark blue footer */
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Business Directory</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="business directory.html">Directory</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  
+  <div class="container">
+    <h2>Browse Our Local Businesses</h2>
+
+    <div class="business-directory">
+      <!-- Business 1 -->
+      <div class="business-card">
+        <h3>Joe's Coffee Shop</h3>
+        <p><span class="highlight">Description:</span> A cozy coffee shop serving the best espresso in town. Free Wi-Fi and delicious pastries available!</p>
+        <p><span class="highlight">Category:</span> Coffee Shop</p>
+        <div class="contact-info">
+          <p><span class="highlight">Phone:</span> (123) 456-7890</p>
+          <p><span class="highlight">Email:</span> info@joescoffeeshop.com</p>
+          <p><span class="highlight">Website:</span> <a href="http://www.joescoffeeshop.com" target="_blank">www.joescoffeeshop.com</a></p>
+        </div>
+      </div>
+
+      <!-- Business 2 -->
+      <div class="business-card">
+        <h3>Green Thumb Gardening</h3>
+        <p><span class="highlight">Description:</span> Experts in landscaping, gardening design, and lawn care. We help you create the perfect outdoor space.</p>
+        <p><span class="highlight">Category:</span> Landscaping</p>
+        <div class="contact-info">
+          <p><span class="highlight">Phone:</span> (234) 567-8901</p>
+          <p><span class="highlight">Email:</span> info@greenthumbgardening.com</p>
+          <p><span class="highlight">Website:</span> <a href="http://www.greenthumbgardening.com" target="_blank">www.greenthumbgardening.com</a></p>
+        </div>
+      </div>
+
+      <!-- Business 3 -->
+      <div class="business-card">
+        <h3>The Book Nook</h3>
+        <p><span class="highlight">Description:</span> A small, independent bookstore with a wide selection of books. Join our book club and enjoy weekly discussions!</p>
+        <p><span class="highlight">Category:</span> Bookstore</p>
+        <div class="contact-info">
+          <p><span class="highlight">Phone:</span> (345) 678-9012</p>
+          <p><span class="highlight">Email:</span> contact@thebooknook.com</p>
+          <p><span class="highlight">Website:</span> <a href="http://www.thebooknook.com" target="_blank">www.thebooknook.com</a></p>
+        </div>
+      </div>
+
+      <!-- Business 4 -->
+      <div class="business-card">
+        <h3>Sunny Days Travel</h3>
+        <p><span class="highlight">Description:</span> Plan your next vacation with Sunny Days Travel. We offer personalized travel packages, tours, and more!</p>
+        <p><span class="highlight">Category:</span> Travel Agency</p>
+        <div class="contact-info">
+          <p><span class="highlight">Phone:</span> (456) 789-0123</p>
+          <p><span class="highlight">Email:</span> info@sunnydaystravel.com</p>
+          <p><span class="highlight">Website:</span> <a href="http://www.sunnydaystravel.com" target="_blank">www.sunnydaystravel.com</a></p>
+        </div>
+      </div>
+
+    </div> <!-- .business-directory -->
+
+  </div> <!-- .container -->
+
+  <footer>
+    <p>&copy; 2024 Local Business Directory. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Community</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9; /* Off-white background */
+    }
+
+    header {
+      background-color: #1e3a5f; /* Dark blue */
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #274c77; /* Blue */
+      overflow: hidden;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: #366a94; /* Light blue on hover */
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section {
+      background-color: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #1e3a5f; /* Dark blue for section headers */
+    }
+
+    .event, .news {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .event p, .news p {
+      margin: 5px 0;
+    }
+
+    button {
+      background-color: #1e3a5f; /* Dark blue button */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .img{
+            display: flex;
+            gap: 4px;
+            border: 4px solid black;
+        }
+
+    button:hover {
+      background-color: #366a94; /* Light blue on button hover */
+    }
+
+    .footer {
+      background-color: #1e3a5f; /* Dark blue footer */
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    a {
+      color: #274c77; /* Blue for links */
+    }
+
+    a:hover {
+      color: #1e3a5f; /* Darker blue on link hover */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Local Community</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="news.html">News</a>
+    <a href="business directory.html">Resources</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+ > 
+
+  <div class="container">
+
+    <!-- Events Section -->
+    <div id="events" class="section">
+      <h2>Upcoming Events</h2>
+      <div class="event">
+        <div>
+          <h3>Community Cleanup</h3>
+          <p>Date: January 15, 2024</p>
+          <p>Location: Main Street Park</p>
+        </div>
+        <button>RSVP</button>
+      </div>
+      <div class="event">
+        <div>
+          <h3>Local Farmers Market</h3>
+          <p>Date: January 20, 2024</p>
+          <p>Location: Downtown Square</p>
+        </div>
+        <button>RSVP</button>
+      </div>
+    </div>
+
+    <!-- News Section -->
+    <div id="news" class="section">
+      <h2>Community News</h2>
+      <div class="news">
+        <div>
+          <h3>New Library Opening</h3>
+          <p>Our new community library will open its doors on February 1, 2024. Join us for the grand opening!</p>
+        </div>
+        <button>Read More</button>
+      </div>
+      <div class="news">
+        <div>
+          <h3>Local Business Spotlight: Joe's Cafe</h3>
+          <p>Joe's Cafe is now offering new menu items! Check out their seasonal specials.</p>
+        </div>
+        <button>Read More</button>
+      </div>
+    </div>
+
+    <!-- Resources Section -->
+    <div id="resources" class="section">
+      <h2>Community Resources</h2>
+      <ul>
+        <li><a href="#">Public Library</a></li>
+        <li><a href="#">Local Gym</a></li>
+        <li><a href="#">Food Pantry</a></li>
+        <li><a href="#">Job Assistance Center</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feel free to reach out to us:</p>
+      <p>Email: contact@localcommunity.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Local Community. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
